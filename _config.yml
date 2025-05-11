@@ -1,0 +1,12 @@
+theme: minima
+title: My Personal Blog
+author: Sagar
+email: sagar187@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my personal blog where I write about things that interest me.
+
+# social links
+github_username:  mr-sagarmandal
+
+# Build settings
+markdown: kramdown

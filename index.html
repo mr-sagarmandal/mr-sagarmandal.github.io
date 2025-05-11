@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar's Personal Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my blog</h1>
+        <span>Posts here reflect my shallow personal opinions. Please ask my company's PR department for my real opinions.</span>
+    </header>
+    <main>
+        <h2>Latest Posts</h2>
+        <ul id="post-list">
+          {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+            </li>
+          {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; {% now '%Y' %} {{ site.author | default: "Your Name" }}</p>
+    </footer>
+</body>
+</html>
