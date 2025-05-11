@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1e1e1e;
+    color: #ffffff;
     padding: 1em 0;
     text-align: center;
 }
@@ -19,9 +19,10 @@ header h1 {
 main {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 #post-list {
@@ -31,18 +32,19 @@ main {
 
 #post-list li {
     margin-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #444;
     padding-bottom: 10px;
 }
 
 #post-list li a {
     text-decoration: none;
-    color: #337ab7;
+    color: #bb86fc;
     font-size: 1.2em;
 }
 
 #post-list li a:hover {
     text-decoration: underline;
+    color: #ffffff;
 }
 
 .post-meta {
@@ -61,8 +63,8 @@ article .content {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
     position: fixed;
     bottom: 0;
     width: 100%;
