@@ -18,6 +18,11 @@ plugins:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mr-sagarmandal.github.io" # the base hostname & protocol for your site
 
+# Sass/SCSS settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
 # Exclude from processing
 exclude:
   - Gemfile
