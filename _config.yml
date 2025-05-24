@@ -1,4 +1,3 @@
-theme: minima
 title: My Personal Blog
 author: Sagar
 email: sagar187@hotmail.com
@@ -17,6 +16,11 @@ plugins:
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mr-sagarmandal.github.io" # the base hostname & protocol for your site
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
 # Sass/SCSS settings
 sass:
