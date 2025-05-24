@@ -60,7 +60,8 @@ section {
   float: right;
   padding-bottom: 50px;
   padding-left: 30px;
-  width: 500px;
+  width: calc(100% - 300px);
+  min-width: 400px;
 
   h1, h2, h3, h4, h5, h6 {
     color: #f0f6fc;
@@ -82,6 +83,8 @@ section {
     margin-top: 30px;
     line-height: 1.7;
     animation: fadeIn 0.6s ease-out;
+    width: 100%;
+    clear: both;
   }
 
   .post-title {
@@ -92,7 +95,6 @@ section {
   }
 
   .post-meta {
-    display: block;
     margin-bottom: 30px;
     color: #8b949e;
     font-size: 0.9em;
@@ -224,11 +226,27 @@ footer {
 
   header {
     padding-right: 0;
+    margin-bottom: 20px;
   }
 
   section {
     padding: 20px 0;
-    margin: 0 0 20px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    padding: 20px;
+  }
+  
+  section {
+    padding-left: 0;
   }
 }
 
@@ -523,4 +541,38 @@ button:focus {
       font-style: italic;
     }
   }
+}
+
+/* Enhanced layout fixes */
+.post-header {
+  width: 100%;
+  clear: both;
+  margin-bottom: 30px;
+}
+
+.post-content {
+  width: 100%;
+  clear: both;
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    clear: both;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    text-align: left;
+    width: 100%;
+  }
+  
+  ul, ol {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+}
+
+article {
+  width: 100%;
+  clear: both;
 }
