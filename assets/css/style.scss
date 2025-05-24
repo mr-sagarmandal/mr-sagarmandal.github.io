@@ -12,9 +12,7 @@
   animation: fadeIn 0.6s ease-out !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
-  display: flex !important;
-  gap: 30px !important;
-  align-items: flex-start !important;
+  display: block !important;
   width: auto !important;
   box-shadow: none !important;
   border: none !important;
@@ -45,15 +43,16 @@ body {
 header {
   position: relative !important;
   z-index: 1;
-  width: 280px !important;
-  flex-shrink: 0 !important;
-  float: none !important;
+  width: 270px !important;
+  float: left !important;
   -webkit-font-smoothing: subpixel-antialiased;
   background-color: rgba(22, 27, 34, 0.6);
   padding: 25px;
   border-radius: 12px;
   border: 1px solid rgba(48, 54, 61, 0.4);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  margin-bottom: 20px;
 
   h1 {
     margin-bottom: 20px;
@@ -83,12 +82,11 @@ header {
 section {
   position: relative !important;
   z-index: 0;
-  flex: 1 !important;
+  margin-left: 330px !important;
   float: none !important;
   width: auto !important;
   padding-left: 0 !important;
-  padding-bottom: 0 !important;
-  margin-left: 0 !important;
+  padding-bottom: 50px !important;
   background-color: rgba(22, 27, 34, 0.4);
   border-radius: 12px;
   padding: 30px;
@@ -221,7 +219,7 @@ pre {
 }
 
 footer {
-  clear: both;
+  clear: both !important;
   position: relative;
   z-index: 1;
   border-top: 1px solid #21262d;
@@ -245,20 +243,20 @@ footer {
 
 /* Media queries for better responsiveness */
 @media print, screen and (max-width: 960px) {
-  .wrapper {
-    flex-direction: column;
-    padding: 15px;
-    gap: 20px;
-  }
-
   header {
-    width: 100%;
-    margin-bottom: 0;
+    float: none !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
   }
 
   section {
-    width: 100%;
-    margin-left: 0;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  
+  .wrapper {
+    padding: 15px !important;
   }
 }
 
@@ -268,16 +266,15 @@ footer {
   }
   
   .wrapper {
-    padding: 10px;
-    gap: 15px;
+    padding: 10px !important;
   }
   
   section {
-    padding: 20px;
+    padding: 20px !important;
   }
   
   header {
-    padding: 20px;
+    padding: 20px !important;
   }
 }
 
