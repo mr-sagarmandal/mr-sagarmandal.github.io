@@ -44,20 +44,12 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% if site.author and site.github_username and site.linkedin_username %}
+          <p>This project is maintained by {{ site.author }}.
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+          </p>
         {% endif %}
-        <ul class="social-media-list">
-          {% if site.github_username %}
-            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-          {% endif %}
-          {% if site.linkedin_username %}
-            <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
-          {% endif %}
-          {% if site.twitter_username %}
-            <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
-          {% endif %}
-        </ul>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
