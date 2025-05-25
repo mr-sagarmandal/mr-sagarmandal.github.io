@@ -1,17 +1,12 @@
 ---
 layout: post
-title:  "Welcome to My Blog!"
-date:   2025-05-11 01:35:00 -0700
+title:  "hello world"
+date:   2025-05-24 01:35:00 -0700
 categories: [firstblog, introduction, welcome]
 ---
-This is my first blog post. I'm excited to start sharing my thoughts and experiences here.
+Its 5.24.2025 and this is my first post here. Started this to share my technical journey specifically working with AIs and incorporating it in my work.
 
-Stay tuned for more content!
+In my short life as a developer, this is probably the most transformative time I have experienced in the industry. It is scary to think that these tools are doing so well, and the possibility of my line of work being mostly redundant in the future. Even in this backdrop, I cannot help but be very excited.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![neowise](/assets/images/posts/firstpost/neowise.png)
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
