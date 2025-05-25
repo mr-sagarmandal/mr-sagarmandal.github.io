@@ -357,7 +357,6 @@ code {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--border-color);
-  position: sticky;
   top: 0;
   background: var(--bg-secondary);
   z-index: 10;
@@ -367,7 +366,7 @@ code {
   margin-right: -30px;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0 0 0 0;
 }
 
 .post-title {
