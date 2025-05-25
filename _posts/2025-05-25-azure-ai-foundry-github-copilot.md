@@ -5,14 +5,14 @@ date:   2025-05-25 00:15:00 -0700
 categories: [azure, azure ai foundry, github, github copilot, copilot, azureaifoundry, openai, gpt4o, o3, vscode]
 ---
 
-## Why bother
+## why bother
 Why would we want to use Azure AI Foundry-hosted models as the base model for GitHub Copilot? There are a few good reasons.
 
 Sometimes, we might hit the dreaded quota limit, which seems to apply even to enterprise GitHub Copilot subscriptions. Or maybe we are resource constrained and don’t want to pay for both Azure AI Foundry models and GitHub Copilot seats.
 
 Another case: we might be working on a sensitive codebase and don’t want to share our code with whichever server Copilot uses for its default base models. This is pretty common in large organizations. Since Azure AI Foundry models keep data and prompts within the tenant, they make a perfect backing LLM.
 
-## Steps
+## steps
 This took me some experimenting to get it to work. And did not find any official documentation for this. 
 
 1) Install the Azure Extension in VS Code. And sign in and make sure you can see your subscriptions listed.
