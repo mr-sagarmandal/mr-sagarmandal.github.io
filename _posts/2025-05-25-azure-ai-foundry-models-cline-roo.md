@@ -26,9 +26,14 @@ Two ways to do this:
 2) Go to your AI Foundry deployment and fill out the information needed.
 ![clineaifoundrydata](/assets/images/posts/aifoundrymodelscline/clineaifoundrydata.png)
 
-**Note:** In both Roo and Cline, for the Base URL field the Target URI copied from AI Foundry needs to be modified, to make it adhere to this format:
+In both Roo and Cline, for the Base URL field the Target URI copied from AI Foundry needs to be modified, to make it adhere to this format:
 <br>`https://<RESOURCE NAME>.openai.azure.com/openai/deployments/<DEPLOYMENT NAME>`<br>
 e.g., for my deployment the Base URL I extracted from AI Foundry Target URI was as follows.<br><br>
 Target URI: `https://<RESOURCE NAME>.openai.azure.com/openai/deployments/o4-mini/chat/completions?api-version=2025-01-01-preview`<br>
 Base URL: `https://<RESOURCE NAME>.openai.azure.com/openai/deployments/o4-mini`<br>
 
+
+After completion:
+![itworks](/assets/images/posts/aifoundrymodelscline/itworks.png)
+
+**Note:** These features are still a work in progress, and newer models may not be fully supported yet.
