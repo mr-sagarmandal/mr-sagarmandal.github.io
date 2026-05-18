@@ -5,7 +5,7 @@ date:   2026-05-18 00:00:00 -0700
 categories: [azure, azure ai foundry, github, github copilot, copilot, azureaifoundry, openai, vscode]
 ---
 
-> This is an update to the original post: [using azure ai foundry hosted models for github copilot](/2025/05/25/azure-ai-foundry-github-copilot.html)
+> This is an update to the original post: [using azure ai foundry hosted models for github copilot](/2025/05/25/azure-ai-foundry-github-copilot)
 
 ## new way to do so through visual studio code
 Since my post last year, Visual Studio Copilot Chat along with Github Copilot has changed considerably. The new way to connect Azure AI Foundry aka Microsoft Foundry model is more config driven. 
