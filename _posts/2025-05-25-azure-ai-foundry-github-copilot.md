@@ -5,7 +5,7 @@ date:   2025-05-25 00:15:00 -0700
 categories: [azure, azure ai foundry, github, github copilot, copilot, azureaifoundry, openai, gpt4o, o3, vscode]
 ---
 
-> **Update (May 18, 2026):** This post has been updated. See the latest version here: [using azure ai foundry hosted models for github copilot (2026 update)](/azure/azure ai foundry/github/github copilot/copilot/azureaifoundry/openai/vscode/2026/05/18/2026/05/18/azure-ai-foundry-github-copilot-update.html)
+> **Update (May 18, 2026):** This post has been updated. See the latest version here: [using azure ai foundry hosted models for github copilot (2026 update)](/2026/05/18/azure-ai-foundry-github-copilot-update.html)
 
 ## why bother
 Why would we want to use Azure AI Foundry-hosted models as the base model for GitHub Copilot? There are a few good reasons.
